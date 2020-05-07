@@ -7,17 +7,31 @@
     <title>League of Data</title>
 </head>
 <body>
-    <div class="main-section">
+    <section class="video-section">
+        <div class="content-cell">
+            <div class="vid-position">
+                <div class="video-cell">
+                    <video autoplay loop muted>
+                        <source src="./video/Championship Zed Animated Wallpaper - Remastered.mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
         <div class="welcome-message">
             <span class="welcome-text">Welcome to Leauge of Data</span>
         </div>
-        <div class="background-video">
-            <div class="color-overlay"></div>
-            <video autoplay loop muted>
-                <source src="./video/Championship Zed Animated Wallpaper - Remastered.mp4">
-            </video>
+    </section>
+    <section class="search-section">
+        <div class="content-section">
+            <form class="summoner-search" autocomplete="off">
+                <div class="input-cell">
+                    <lable for="sname" class="enter-title">
+                        <span>Enter Summoner Name</span>
+                    </lable>
+                    <input type="text" id="sname" name="sname">
+                </div>
+            </form>
         </div>
-    </div>
-
+    </section>
 </body>
 </html>
